@@ -1,0 +1,30 @@
+# Archivos de datos pesados
+*.csv
+*.parquet
+*.xlsx
+*.xls
+
+# Imágenes generadas
+*.png
+*.jpg
+*.jpeg
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Archivos de salida generados
+X_train_con_cluster.csv
+X_test_con_cluster.csv
+y_train.csv
+y_test.csv
+covid_coahuila_limpio.csv
+reglas_asociacion.csv
+
+# Carpeta de outputs
+outputs/
